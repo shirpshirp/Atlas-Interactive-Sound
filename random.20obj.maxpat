@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 452.0, 268.0, 150.0, 75.0 ],
+					"patching_rect" : [ 452.0, 268.0, 152.0, 75.0 ],
 					"text" : "drunk: two argumets: the first is the overall range of the output, and the second is the range of individual steps."
 				}
 
@@ -369,7 +369,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.000001490116119, 1746.000052034854889, 150.0, 225.0 ],
+					"patching_rect" : [ 16.000001490116119, 1746.000052034854889, 153.0, 225.0 ],
 					"text" : "Create a patch with a single metro that generates two drunken walks between 0 and 127 (a common range in the MIDI world). Force one to start at 0, and the other to start at 127. Have the steps size be \"-4\" (so there are not duplicates). How long does it take for the two values to become equal (as in the last exercise)? What if you change the step size to \"4\" (allowing duplicates)?"
 				}
 
@@ -547,7 +547,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 553.333351671695709, 1088.666699111461639, 126.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "even every 200 seconds"
 				}
 
@@ -828,19 +827,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-84",
-					"linecount" : 18,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 181.333338737487793, 2436.666739284992218, 150.0, 252.0 ],
-					"presentation_linecount" : 18,
-					"text" : "Create a patch where one metro object drives two random number generators: one using the random object, and one using the urn object. Set the range for each to \"20\". Using the \"==\" object (see the help file) and the select object, write a message to the Max window each time the two numbers are equal. How long do you have to wait for a match? Change the range to \"50\" and see how long you have to wait. 200?"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-83",
 					"linecount" : 18,
 					"maxclass" : "comment",
@@ -907,7 +893,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 381.333344697952271, 722.000021517276764, 63.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "metro 500"
 				}
 
@@ -1075,7 +1060,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 470.0, 150.0, 184.0 ],
+					"patching_rect" : [ 20.0, 470.0, 152.0, 184.0 ],
 					"text" : "Create a patch that has a single metro object, but that drives three random number generators: one that generates numbers between 0 and 9, one that generates numbers between 0.0 and 5000.0, and one that generates numbers between -1.0 and 1.0 (a very common range for audio, which we shall see in a future lesson)."
 				}
 
@@ -1209,7 +1194,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.0, 204.0, 150.0, 33.0 ],
+					"patching_rect" : [ 138.0, 204.0, 152.0, 34.0 ],
 					"text" : "** always include zero 0 in your counting"
 				}
 
@@ -1233,7 +1218,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.0, 212.0, 32.0, 22.0 ],
+					"patching_rect" : [ 43.0, 212.0, 32.0, 36.0 ],
 					"text" : "print"
 				}
 
@@ -1246,7 +1231,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.0, 172.0, 59.0, 22.0 ],
+					"patching_rect" : [ 42.0, 172.0, 59.0, 36.0 ],
 					"text" : "random 5"
 				}
 
@@ -1259,7 +1244,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 35.0, 132.0, 63.0, 22.0 ],
+					"patching_rect" : [ 35.0, 132.0, 63.0, 36.0 ],
 					"text" : "metro 500"
 				}
 
@@ -1308,7 +1293,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 42.0, 727.0, 63.0, 22.0 ],
+					"patching_rect" : [ 42.0, 727.0, 63.0, 36.0 ],
 					"text" : "metro 500"
 				}
 
