@@ -1,0 +1,53 @@
+{
+	"pattrstorage" : 	{
+		"name" : "dada",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"slingblade[1]" : [ 66 ],
+					"bp.Oscillator[1]::CV2" : [ 0.0 ],
+					"bp.Oscillator[1]::CV3" : [ 0.0 ],
+					"bp.Oscillator[1]::Freq" : [ 261.625565410470585 ],
+					"bp.Oscillator[1]::FreqMode" : [ 1.0 ],
+					"bp.Oscillator[1]::Linear" : [ 0.0 ],
+					"bp.Oscillator[1]::Mute" : [ 0.0 ],
+					"bp.Oscillator[1]::Offset" : [ 0.0 ],
+					"bp.Oscillator[1]::PW" : [ 50.0 ],
+					"bp.Oscillator[1]::PWM" : [ 0.0 ],
+					"bp.Oscillator[1]::Waveform" : [ 1.0 ],
+					"bp.Graphic ADSR::Domain" : [ 1000.0 ],
+					"bp.Graphic ADSR::DomainCV_Amt" : [ 0.0 ],
+					"bp.Graphic ADSR::function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 49.566276000000002, 1.0, 0, 0.395, 211.196270999999996, 0.702128, 2, -0.345, 799.52961700000003, 0.0, 0, -0.7, "curve" ],
+					"bp.Graphic ADSR::mute" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"slingblade[1]" : [ 66 ],
+					"bp.Oscillator[1]::CV2" : [ 0.0 ],
+					"bp.Oscillator[1]::CV3" : [ 0.0 ],
+					"bp.Oscillator[1]::Freq" : [ 261.625565410470585 ],
+					"bp.Oscillator[1]::FreqMode" : [ 1.0 ],
+					"bp.Oscillator[1]::Linear" : [ 0.0 ],
+					"bp.Oscillator[1]::Mute" : [ 0.0 ],
+					"bp.Oscillator[1]::Offset" : [ 0.0 ],
+					"bp.Oscillator[1]::PW" : [ 50.0 ],
+					"bp.Oscillator[1]::PWM" : [ 0.0 ],
+					"bp.Oscillator[1]::Waveform" : [ 1.0 ],
+					"bp.Graphic ADSR::Domain" : [ 1000.0 ],
+					"bp.Graphic ADSR::DomainCV_Amt" : [ 0.0 ],
+					"bp.Graphic ADSR::function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 49.566276000000002, 1.0, 0, 0.395, 211.196270999999996, 0.702128, 2, -0.345, 799.52961700000003, 0.0, 0, -0.7, "curve" ],
+					"bp.Graphic ADSR::mute" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
